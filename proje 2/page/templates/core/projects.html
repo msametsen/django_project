@@ -1,0 +1,14 @@
+<!-- Projects -->
+<div class="row my-4">
+    <!-- .col-sm*8>img.w-100[src="https://picsum.photos/id/2$/100/80"] -->
+    <div class="col-sm-12">
+        <h2>Projelerimiz</h2>
+        <hr>
+    </div>
+    {% for item in FAKE_DB_PROJECTS %}
+    <div class="col-sm col-6 mb-1"><img src="{{item}}" class=" w-100 img-thumbnail">
+    </div>
+    {% endfor %}
+
+</div>
+</div>
